@@ -131,10 +131,8 @@
     <ClCompile Include="CheckArr.cpp" />
     <ClCompile Include="CheckArr3.cpp" />
     <ClCompile Include="CheckArr2.cpp" />
-    <ClCompile Include="convertarr.cpp" />
     <ClCompile Include="Convertarr1.cpp" />
-    <ClCompile Include="CooroftheMinEl.cpp" />
-    <ClCompile Include="CooroftheMinEl1.cpp" />
+    <ClCompile Include="findMinIndexes.cpp" />
     <ClCompile Include="InOut.cpp" />
     <ClCompile Include="LocalMin.cpp" />
     <ClCompile Include="MainMenuofCharAr.cpp" />
@@ -145,8 +143,6 @@
     <ClCompile Include="minEL1.cpp" />
     <ClCompile Include="NumofMinEl.cpp" />
     <ClCompile Include="sum.cpp" />
-    <ClCompile Include="ZeroCoor.cpp" />
-    <ClCompile Include="ZeroCoor1.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="libraries.h" />

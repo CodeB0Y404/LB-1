@@ -36,9 +36,6 @@
     <ClCompile Include="sum.cpp">
       <Filter>Файлы ресурсов\OneDimArr</Filter>
     </ClCompile>
-    <ClCompile Include="convertarr.cpp">
-      <Filter>Файлы ресурсов\OneDimArr</Filter>
-    </ClCompile>
     <ClCompile Include="minEL1.cpp">
       <Filter>Исходные файлы\OneDimArr</Filter>
     </ClCompile>
@@ -60,13 +57,7 @@
     <ClCompile Include="AbsSum.cpp">
       <Filter>Файлы ресурсов\TwoDimArr</Filter>
     </ClCompile>
-    <ClCompile Include="ZeroCoor.cpp">
-      <Filter>Файлы ресурсов\OneDimArr</Filter>
-    </ClCompile>
     <ClCompile Include="NumofMinEl.cpp">
-      <Filter>Файлы ресурсов\OneDimArr</Filter>
-    </ClCompile>
-    <ClCompile Include="CooroftheMinEl.cpp">
       <Filter>Файлы ресурсов\OneDimArr</Filter>
     </ClCompile>
     <ClCompile Include="CheckArr2.cpp">
@@ -75,17 +66,14 @@
     <ClCompile Include="CheckArr3.cpp">
       <Filter>Файлы ресурсов\OneDimArr</Filter>
     </ClCompile>
-    <ClCompile Include="CooroftheMinEl1.cpp">
-      <Filter>Файлы ресурсов\OneDimArr</Filter>
-    </ClCompile>
-    <ClCompile Include="ZeroCoor1.cpp">
+    <ClCompile Include="findMinIndexes.cpp">
       <Filter>Файлы ресурсов\OneDimArr</Filter>
     </ClCompile>
     <ClCompile Include="Convertarr1.cpp">
       <Filter>Файлы ресурсов\OneDimArr</Filter>
     </ClCompile>
     <ClCompile Include="mainMenu.cpp">
-      <Filter>Файлы ресурсов\OneDimArr</Filter>
+      <Filter>Файлы ресурсов</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

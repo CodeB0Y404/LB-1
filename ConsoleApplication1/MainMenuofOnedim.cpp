@@ -30,13 +30,7 @@ void onedim()
                cout << "Пожалуйства, введите верное значение размера массива" << endl;
                cin >> size;
            }
-                /*if (cin.fail())
-                {
-                    cin.clear();
-                    cin.ignore(numeric_limits<streamsize>::max(), '\n');
-                    cout << "The number must be a positive integer!" << endl;
-                    return;
-                }*/
+              
             cout << endl;
             cout << "Enter Array Elements: ";
             cout << endl;
@@ -48,16 +42,7 @@ void onedim()
               cin >> Arr[i];
             }
             cout << endl;
-            /* cout << "---------------------------------------------------------------------" << endl;*/
-            /* int number;
-             cout << "Какую операцию вы желаете провести с одномерным массивом?" << endl
-                 << "1 - Вычислить минимальный по модулю элемент массива.  Найти их количество и их позиции" << endl
-                 << "2 - Вычислить сумму модулей элементов массива, расположенных после первого элемента, равного нулю. Найти положение нулевого элемента, после которого найдена сумма" << endl
-                 << "3 - Преобразовать массив, чтобы в первой его половине располагались элементы, стоявшие в четных позициях, а затем элементы, стоявшие в нечетных позициях" << endl
-                 << "0 - Выйти" << endl;
-             cin >> number;*/
-           // while (number != 0)
-          //  {
+            
             switch (number)
             {
             case 1:
@@ -66,7 +51,7 @@ void onedim()
                 cout << "Minimum absolute element of a one-dimensional array = " << minEL(Arr, size) << endl;
                 int minSize;
                 int* minIndexes = findMinIndexes(Arr, size, minSize);
-                // cout << "Indexes of the minimum elements: ";
+               
                 for (int i = 0; i < 1; i++)
                     cout << "Coordinates of the minimum elements of a one-dimensional array: " << minIndexes[i] + 1;
                 for (int i = 1; i < minSize; i++)
@@ -74,7 +59,7 @@ void onedim()
                 cout << endl;
 
                 delete[] minIndexes;
-                // CooroftheMinEl(Arr, min_elements, size);
+               
                 cout << "Number of minimum elements in a one-dimensional array = " << NumofMinEl(Arr, size) << endl;
 
                 delete[] Arr;
@@ -103,7 +88,7 @@ void onedim()
                     cout << "Сумма модулей элементов массива, расположенных после первого элемента, равного нулю = " << sum(Arr, size) << endl;
                     int minSize;
                     int* ZeroIndexes = findMinIndexes(Arr, size, minSize);
-                    // cout << "Indexes of the minimum elements: ";
+                    
                     for (int i = 0; i < 1; i++)
                         cout << "Coordinates of zero elements of a one-dimensional array: " << ZeroIndexes[i] + 1;
                     for (int i = 1; i < minSize; i++)
@@ -111,7 +96,7 @@ void onedim()
                     cout << endl;
 
                     delete[] ZeroIndexes;
-                    // ZeroCoor(Arr, min_elements, size);
+                    
                 }
                 cout << endl;
                 delete[] Arr;
@@ -126,7 +111,7 @@ void onedim()
                     for (int i = 0; i < size; i++)
                         cout << " " << ConvertArr[i];
                     delete[] ConvertArr;
-                    //convertarr(Arr, min_elements, size);
+                    
                     cout << endl;
                     delete[] Arr;
                     delete[] min_elements;
